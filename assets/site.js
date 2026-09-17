@@ -1,0 +1,2 @@
+const button=document.querySelector('.menu-button');const links=document.querySelector('.nav-links');if(button&&links){button.addEventListener('click',()=>{links.classList.toggle('open');button.setAttribute('aria-expanded',links.classList.contains('open'))})}
+document.querySelectorAll('img[data-fallback]').forEach(img=>{img.addEventListener('error',()=>{if(!img.src.endsWith('placeholder.svg'))img.src=img.dataset.fallback})});

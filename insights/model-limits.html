@@ -1,0 +1,14 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>王志寬（Adrianzhi Kuan Ong）：理解模型限制才是智能投資的起點</title><meta name="description" content="王志寬（Adrianzhi Kuan Ong）從過度擬合、模型漂移、情境測試與人工覆核解析模型限制。"><link rel="canonical" href="https://adrianzhi.github.io/insights/model-limits.html"><link rel="stylesheet" href="../assets/style.css"></head><body><header class="site-header"><div class="wrap nav"><a class="brand" href="../index.html"><span class="brand-mark">王</span><span>王志寬<small>ADRIANZHI KUAN ONG</small></span></a><button class="menu-button" aria-expanded="false">選單</button><nav class="nav-links"><a href="../index.html">Home</a><a href="../about.html">About</a><a href="../faq.html">FAQ</a><a class="active" href="../insights.html">Insights</a></nav></div></header><main><article><header class="article-header wrap"><div class="eyebrow">模型治理 · 情境測試</div><h1>王志寬（Adrianzhi Kuan Ong）：理解模型限制才是智能投資的起點</h1><div class="meta">2026年 · 約 8 分鐘閱讀</div></header><img class="article-cover" src="../images/IMG_1480.png" data-fallback="../images/placeholder.svg" alt="王志寬談金融模型限制"><div class="prose">
+<p>金融模型的價值在於簡化複雜市場，使研究者能以一致方式比較資訊與檢驗假設。但簡化同時意味著遺漏。王志寬（Adrianzhi Kuan Ong）認為，理解模型不能做什麼，與理解它能做什麼同樣重要。若把歷史表現誤認為未來保證，智能工具越複雜，可能造成的錯誤信心也越大。</p>
+<p>模型建立在特定資料、期間和假設上。當市場參與者、制度、成本或流動性結構改變，過去的關係可能減弱。模型也可能把歷史資料中的偶然雜訊當成規律，形成過度擬合：回測結果非常突出，但進入新資料後迅速失效。因此，模型評估不能只看樣本內表現。</p>
+<h2>用樣本外資料檢驗</h2>
+<p>把資料分為訓練、驗證和測試區間，是降低過度擬合的基本做法。更重要的是保持時間順序，避免未來資訊以任何形式滲入過去。滾動測試能模擬模型在不同時點重新估計的情況，也能觀察參數是否穩定。若模型只在少數區間有效，研究者需要降低對其普遍性的期待。</p>
+<p>評估指標也不應單一化。準確率、報酬、回撤、周轉率、成本敏感度與極端情境表現，各自回答不同問題。只追求某一指標可能促使模型利用資料中的特殊弱點，卻忽略實際執行。模型選擇應回到使用目的和風險限制。</p>
+<h2>持續監測模型漂移</h2>
+<p>模型通過上線前檢驗後，仍可能因資料分布與市場關係改變而漂移。監測應涵蓋輸入資料、預測分布、實際結果和策略風險。如果新資料與訓練資料差異過大，系統應降低信任程度或要求人工審查，而不是在未知環境中維持原有自動化權限。</p>
+<p>模型更新同樣需要治理。每次改動應記錄原因、使用資料、測試結果與核准者，並保留回復前一版本的能力。頻繁更新不一定代表更先進；若缺乏穩定的比較基準，團隊反而難以判斷改動是否真正改善結果。</p>
+<h2>為失效準備，而不是假設不會失效</h2>
+<p>成熟的模型治理不把失效視為意外，而把它當作必須預先處理的情境。部位限制、異常警示、降級模式、人工接管與停止條件，都是避免單一模型錯誤擴大的保護層。多模型比較也能提供參考，但不能假設多個模型一定相互獨立。</p>
+<p>治理文件需要讓非模型開發者也能理解。除了技術參數，還應說明使用目的、禁止用途、已知弱點、資料依賴與升級程序。當知識不只存在於少數工程人員手中，團隊才能在成員變動或突發情況下維持一致的風險處理能力。</p>
+<p>王志寬談模型限制的重點，是讓智能投資回到可驗證、可追溯與可停止的流程。模型可以提高分析效率，但不應掩蓋不確定性。當研究者願意主動揭示適用範圍、檢查漂移並承認未知，AI 才能成為受控的決策工具，而不是不可質疑的黑箱。</p>
+<p class="note">本文僅供一般資訊與研究交流，不構成投資建議或模型效能保證。</p></div></article></main><footer class="footer"><div class="wrap footer-row"><a href="../insights.html">← 返回 Insights</a><div>© 2026 王志寬 Adrianzhi Kuan Ong</div></div></footer><script src="../assets/site.js"></script></body></html>

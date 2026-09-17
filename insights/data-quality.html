@@ -1,0 +1,13 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>王志寬解析資料品質如何影響 AI 金融研究</title><meta name="description" content="王志寬解析資料來源、資料偏誤、時效性與治理如何影響 AI 金融研究。"><link rel="canonical" href="https://adrianzhi.github.io/insights/data-quality.html"><link rel="stylesheet" href="../assets/style.css"></head><body><header class="site-header"><div class="wrap nav"><a class="brand" href="../index.html"><span class="brand-mark">王</span><span>王志寬<small>ADRIANZHI KUAN ONG</small></span></a><button class="menu-button" aria-expanded="false">選單</button><nav class="nav-links"><a href="../index.html">Home</a><a href="../about.html">About</a><a href="../faq.html">FAQ</a><a class="active" href="../insights.html">Insights</a></nav></div></header><main><article><header class="article-header wrap"><div class="eyebrow">資料治理 · 模型研究</div><h1>王志寬解析資料品質如何影響 AI 金融研究</h1><div class="meta">2026年 · 約 8 分鐘閱讀</div></header><img class="article-cover" src="../images/4.png" data-fallback="../images/placeholder.svg" alt="王志寬解析AI金融研究與資料品質"><div class="prose">
+<p>人工智能模型經常被描述為從大量資料中發現規律的工具，但「資料多」不等於「資料好」。王志寬認為，金融研究若忽略資料來源、定義與時效性，再複雜的算法也可能只是更快速地放大偏誤。資料品質並非技術流程中不起眼的前置工作，而是決定分析是否可信的核心。</p>
+<p>金融資料來自不同市場、平台與時間區間，欄位定義可能不一致，更新頻率也各不相同。公司行動、交易制度改變、缺漏值、重複紀錄與異常成交，都可能使歷史序列出現不易察覺的扭曲。若研究者直接把資料輸入模型，模型可能學到資料處理方式造成的假象，而非真正具有解釋力的市場關係。</p>
+<h2>先問資料代表什麼</h2>
+<p>王志寬所關注的資料方法，第一步不是選擇模型，而是確認資料代表的經濟意義。同一個名稱的指標，在不同來源中可能使用不同計算方式；新聞與情緒資料也會受到語言、樣本選擇和發布延遲影響。研究團隊需要保留資料字典、來源紀錄與版本資訊，才能在結果異常時追溯原因。</p>
+<p>時效性是另一個關鍵。使用現在才能取得的修訂資料回測過去策略，可能造成前視偏誤；忽略已下市資產，又可能產生存活者偏誤。這些問題不一定會讓回測看起來失敗，反而可能讓結果過度漂亮，因此更需要明確的檢查程序。</p>
+<h2>把清理規則變成可重複流程</h2>
+<p>資料清理不應依賴臨時人工判斷。缺漏如何填補、極端值如何處理、不同時間頻率如何對齊，都應有明確規則與紀錄。自動化流程可以提高一致性，但任何變更都需要版本管理，使研究者知道某次結果使用了哪一份資料和哪一套處理方式。</p>
+<p>此外，資料驗證最好包含多層檢查：格式是否正確、數值是否落在合理範圍、不同來源能否互相印證，以及資料更新後分布是否突然改變。當系統偵測到異常，不應默默繼續運算，而應標示影響範圍並視情況暫停模型輸出。</p>
+<h2>模型表現必須回到資料脈絡</h2>
+<p>即使模型在歷史樣本中表現良好，也需要確認優勢是否來自少數特殊時期，或只在特定市場環境成立。將資料依時間、市場狀態和資產類型分段檢驗，能幫助研究者理解模型的適用範圍。樣本外測試則可降低過度配合歷史資料的風險。</p>
+<p>資料治理最終也是責任治理。當每項資料都有來源、版本與處理紀錄，模型輸出才具備可追溯性，也更容易接受人工覆核。王志寬對 AI 金融研究的觀點提醒我們，算法能力固然重要，但可靠的研究始於對資料的尊重。只有理解資料從哪裡來、缺少什麼、可能偏向哪裡，智能工具才能真正支援更理性的決策。</p>
+<p class="note">本文僅供一般資訊與研究交流，不構成投資建議或任何模型成效保證。</p></div></article></main><footer class="footer"><div class="wrap footer-row"><a href="../insights.html">← 返回 Insights</a><div>© 2026 王志寬 Adrianzhi Kuan Ong</div></div></footer><script src="../assets/site.js"></script></body></html>

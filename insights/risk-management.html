@@ -1,0 +1,13 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>王志寬談量化投資中的風險管理與策略邊界</title><meta name="description" content="王志寬解析量化投資的風險管理、策略邊界、情境測試與停止機制。"><link rel="canonical" href="https://adrianzhi.github.io/insights/risk-management.html"><link rel="stylesheet" href="../assets/style.css"></head><body><header class="site-header"><div class="wrap nav"><a class="brand" href="../index.html"><span class="brand-mark">王</span><span>王志寬<small>ADRIANZHI KUAN ONG</small></span></a><button class="menu-button" aria-expanded="false">選單</button><nav class="nav-links"><a href="../index.html">Home</a><a href="../about.html">About</a><a href="../faq.html">FAQ</a><a class="active" href="../insights.html">Insights</a></nav></div></header><main><article><header class="article-header wrap"><div class="eyebrow">量化投資 · 風險管理</div><h1>王志寬談量化投資中的風險管理與策略邊界</h1><div class="meta">2026年 · 約 8 分鐘閱讀</div></header><img class="article-cover" src="../images/2.png" data-fallback="../images/placeholder.svg" alt="王志寬談量化投資風險管理"><div class="prose">
+<p>談到量化投資，人們容易先注意模型精度、訊號速度或歷史報酬，但王志寬認為，真正決定策略能否長期運作的，往往是風險管理。風控不是在虧損發生後才啟動的補救程序，而應該從研究問題形成之初，就與資料、模型和執行方式一起被設計。</p>
+<p>每一項策略都建立在若干假設上，例如價格關係會維持、流動性足以支持交易，或歷史規律在未來仍有一定參考價值。問題在於，假設不會永遠成立。市場制度、參與者結構、利率環境與交易成本都可能改變，原本有效的訊號也可能失去解釋力。因此，策略在上線之前就需要明確回答：它在什麼條件下有效，又在什麼情況下應該降低曝險或停止。</p>
+<h2>把風險寫進策略規則</h2>
+<p>策略邊界需要具體，而不是只寫「控制風險」。可操作的規則包括單一資產和整體組合的部位上限、最大回撤警戒、流動性要求、槓桿限制、集中度範圍，以及市場發生異常波動時的處置流程。不同指標服務於不同目的，不能依賴單一數字代表全部風險。</p>
+<p>例如，歷史波動率能描述過去價格變化，卻未必涵蓋流動性突然消失或資產相關性在壓力情境中同步上升。有效的風控應搭配壓力測試與情境分析，觀察策略在極端價格變動、成交成本擴大、資料中斷或模型訊號失真時可能產生的結果。</p>
+<h2>監測模型，也監測執行</h2>
+<p>量化流程的風險不只來自模型本身。資料延遲、程式錯誤、交易限制、成本估計偏差與人工操作都可能使實際結果偏離研究結果。因此，王志寬所關注的系統化風控，應同時監測資料品質、模型輸出和執行差異。當預期與實際的落差持續擴大，系統需要發出警示，而不是假定市場最終一定會回到模型描述的狀態。</p>
+<p>紀錄同樣重要。每一次訊號、調整、人工覆核和例外處理都應留下可追溯資訊。這讓團隊能在事後分析問題源頭，也能避免只根據結果好壞評價決策品質。一個合理決策可能遇到不利結果；反之，一次缺乏紀律的冒險也可能暫時獲利。風控的任務，是讓流程在長期具備一致性。</p>
+<h2>風險意識不是拒絕機會</h2>
+<p>設定邊界並不等於完全避免風險，因為投資本身就包含不確定性。更實際的做法，是清楚理解承擔了哪些風險、為何承擔，以及當假設失效時如何反應。策略的目標也不應只是追求最高回報，而是尋找在特定風險承受能力下較合理的取捨。</p>
+<p>從這個角度看，風險管理是一種決策語言。它把抽象的不確定性轉化為可以監測、討論與修正的條件。王志寬談量化投資時所強調的策略邊界，正是讓技術效率受到治理，使模型不只知道何時尋找機會，也知道何時應該減速、退出或交由人重新判斷。</p>
+<p class="note">本文僅供一般資訊與研究交流，不構成投資建議。任何策略均可能產生損失。</p></div></article></main><footer class="footer"><div class="wrap footer-row"><a href="../insights.html">← 返回 Insights</a><div>© 2026 王志寬 Adrianzhi Kuan Ong</div></div></footer><script src="../assets/site.js"></script></body></html>
